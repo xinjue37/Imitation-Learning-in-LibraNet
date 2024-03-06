@@ -1,6 +1,6 @@
 # Imitation learning in sequential crowd counting
 
-* This repository consist of implementation in "Imitation learning is all you need in sequential crowd counting using deep reinforcement learning"
+* This repository consist of implementation in "Imitation learning in sequential crowd counting using deep reinforcement learning"
 
 ## Instruction to run the code (Way1)
 1. Download all the file and code from the [Onedrive](https://1drv.ms/f/s!Ahv-XQKk4-F9pGE97HwvACaHuXQR?e=oSU2Hz) (1.35GB), it contains all the models and results obtained.
