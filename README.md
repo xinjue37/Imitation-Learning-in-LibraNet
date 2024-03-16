@@ -2,6 +2,9 @@
 
 * This repository consist of implementation in "Imitation learning in sequential crowd counting using deep reinforcement learning"
 
+## Abstract
+Crowd counting in computer vision involves the utilization of advanced algorithms and image processing techniques to accurately estimate the number of individuals present in a given scene for applications such as surveillance and traffic control. The main approaches include detection-based methods and classification/regression-based methods. Another line of approach is to train an AI agent, like LibraNet, that can count the crowd in images sequentially through deep reinforcement learning (RL). However, the training of LibraNet that used Deep Q-learning is unstable and needs a long time for convergence. Therefore, this paper utilized imitation learning in Deep RL with a classification-based approach to speed up the convergence speed, combining the complementary strengths of the two approaches. The results show that training with the imitation learning loss and classification-based cross-entropy outperforms the original Q-learning loss in training the LibraNet.
+
 ## Instruction to run the code (Way1)
 1. Download all the file and code from the [Onedrive](https://1drv.ms/f/s!Ahv-XQKk4-F9pGE97HwvACaHuXQR?e=oSU2Hz) (1.35GB), it contains all the models and results obtained.
 2. Run the train.ipynb to train the model and evaluate.ipynb to evaluate the model
